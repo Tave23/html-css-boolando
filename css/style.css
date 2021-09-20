@@ -17,10 +17,28 @@
   margin-right: 15px;
 }
 
+.discount{
+  position: relative;
+  bottom: 50px;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+}
+
+.eco-friendly{
+  position: relative;
+  bottom: 50px;
+  padding: 2px 5px;
+  background-color: green;
+  color: white;
+}
+
+
 h3{
   text-transform: uppercase;
   font-size: 15px;
 }
+
 
 .card img{
   width: 100%;
