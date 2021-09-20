@@ -33,12 +33,10 @@
   color: white;
 }
 
-
 h3{
   text-transform: uppercase;
   font-size: 15px;
 }
-
 
 .card img{
   width: 100%;
@@ -58,4 +56,24 @@ h3{
 
 .sales{
   text-decoration: line-through;
+}
+
+.card{
+  cursor: pointer;
+}
+
+.prima-img{
+  display: block;
+}
+
+.seconda-img{
+  display: none;
+}
+
+.card:hover .prima-img{
+  display: none;
+}
+
+.card:hover .seconda-img{
+  display: block;
 }
