@@ -7,27 +7,30 @@
 
 .container{
   width: 80%;
-  height: 1000px;
-  margin: 20px auto;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .card{
   display: inline-block;
   width: 31%;
   margin-right: 15px;
+  position: relative;
 }
 
 .discount{
-  position: relative;
-  bottom: 50px;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
   background-color: red;
   color: white;
   padding: 2px 5px;
 }
 
 .eco-friendly{
-  position: relative;
-  bottom: 50px;
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
   padding: 2px 5px;
   background-color: green;
   color: white;
@@ -40,10 +43,15 @@ h3{
 
 .card img{
   width: 100%;
+  cursor: pointer;
 }
 
 .card span{
   font-size: 12px;
+}
+
+.img-description{
+  margin-bottom: 40px;
 }
 
 .brand, .sales{
@@ -58,14 +66,6 @@ h3{
   text-decoration: line-through;
 }
 
-.card{
-  cursor: pointer;
-}
-
-.prima-img{
-  display: block;
-}
-
 .seconda-img{
   display: none;
 }
@@ -76,4 +76,13 @@ h3{
 
 .card:hover .seconda-img{
   display: block;
+}
+
+.heart{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 15px;
 }
