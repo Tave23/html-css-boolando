@@ -20,7 +20,7 @@
 
 .discount{
   position: absolute;
-  bottom: 80px;
+  bottom: 120px;
   left: 0;
   background-color: red;
   color: white;
@@ -29,7 +29,7 @@
 
 .eco-friendly{
   position: absolute;
-  bottom: 80px;
+  bottom: 120px;
   left: 40px;
   padding: 2px 5px;
   background-color: green;
